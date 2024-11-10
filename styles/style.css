@@ -78,6 +78,8 @@ footer {
     padding: 10px;
     background-color: #12999e;
 }
+
+
 /* Media Queries for Mobile View */
 @media screen and (max-width: 768px) {
     header h1 {
