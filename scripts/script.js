@@ -113,3 +113,32 @@ document.getElementById("cse-courses").addEventListener("click", () => renderCou
 // Initialize the page
 displayDates();
 renderCourseList("all");
+
+// Render Course List with Completed Courses Marked
+function renderCourseList(filter = "all") {
+    const courseList = document.getElementById("course-list");
+    courseList.innerHTML = "";
+    let totalCredits = 0;
+
+    courses.forEach(course => {
+        if (filter === "all" || course.subject === filter) {
+            const li = document.createElement("li");
+            li.innerHTML = `
+                <h3>${course.subject} ${course.number}: ${course.title}</h3>
+                <p><strong>Credits:</strong> ${course.credits}</p>
+            `;
+            if (course.completed) li.classList.add("completed");
+            courseList.appendChild(li);
+            totalCredits += course.credits;
+        }
+    });
+
+    document.getElementById("totalCredits").textContent = totalCredits;
+}
+
+// Hamburger Menu Toggle
+document.getElementById("menu-toggle").addEventListener("click", () => {
+    document.getElementById("main-nav").classList.toggle("active");
+});
+
+renderCourseList("all");

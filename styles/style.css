@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: 'Sansita', sans-serif;
     margin: 0;
@@ -7,9 +8,21 @@ body {
 }
 
 header {
-    background-color: #a7bd2f;
+    background-color: #30af85;
     padding: 20px;
     text-align: center;
+    position: relative;
+}
+
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
 }
 
 nav ul {
@@ -19,10 +32,14 @@ nav ul {
     justify-content: center;
 }
 
-nav a {
+.nav-links a {
     color: #248534;
     margin: 0 15px;
     text-decoration: none;
+}
+
+.nav-links a.active {
+    border-bottom: 2px solid #248534;
 }
 
 nav a:hover {
@@ -39,25 +56,14 @@ main {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #545e64;
     border-radius: 8px;
-}
-
-.about-text {
-    flex: 1;
-    padding-right: 20px;
 }
 
 img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-}
-
-#course-buttons {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
 }
 
 button {
@@ -79,25 +85,28 @@ footer {
     background-color: #12999e;
 }
 
-
 /* Media Queries for Mobile View */
 @media screen and (max-width: 768px) {
-    header h1 {
-        font-size: 1.2rem;
+    .hamburger {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    nav.active {
+        display: block;
+        background-color: #a7bd2f;
     }
 
     nav ul {
         flex-direction: column;
-        gap: 5px;
+        gap: 10px;
     }
 
     .about-me {
         flex-direction: column;
-    }
-
-    #course-buttons {
-        flex-direction: column;
-        gap: 10px;
     }
 
     button {
@@ -106,14 +115,6 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-    body {
-        padding: 10px;
-    }
-
-    header h1 {
-        font-size: 1rem;
-    }
-
     .about-me img {
         max-width: 120px;
     }
@@ -121,8 +122,10 @@ footer {
     #location img {
         max-width: 90%;
     }
+}
 
-    #course-list {
-        grid-template-columns: 1fr;
-    }
+/* Completed Course Styles */
+.completed {
+    background-color: #546458;
+    color: #155724;
 }
