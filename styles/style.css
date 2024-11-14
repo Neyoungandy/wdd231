@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #30af85;
+    background-color: #a7bd2f;
     padding: 20px;
     text-align: center;
     position: relative;
@@ -56,7 +56,7 @@ main {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: #545e64;
+    background-color: #f0f0f0;
     border-radius: 8px;
 }
 
@@ -126,6 +126,6 @@ footer {
 
 /* Completed Course Styles */
 .completed {
-    background-color: #546458;
+    background-color: #d4edda;
     color: #155724;
 }
