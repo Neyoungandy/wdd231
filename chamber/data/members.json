@@ -1,0 +1,58 @@
+[
+    {
+        "name": "ABC Store",
+        "address": "123 Main St, Abeokuta",
+        "phone": "08012345678",
+        "website": "https://www.abcstore.com",
+        "image": "images/abcstore.jpg",
+        "membership_level": 1
+    },
+    {
+        "name": "Silver Tech",
+        "address": "456 High St, Abeokuta",
+        "phone": "08023456789",
+        "website": "https://www.silvertech.com",
+        "image": "images/silvertech.jpg",
+        "membership_level": 2
+    },
+    {
+        "name": "Gold Furniture",
+        "address": "789 Market Rd, Abeokuta",
+        "phone": "08034567890",
+        "website": "https://www.goldfurniture.com",
+        "image": "images/goldfurniture.jpg",
+        "membership_level": 3
+    },
+    {
+        "name": "Fashion Hub",
+        "address": "101 Fashion St, Abeokuta",
+        "phone": "08045678901",
+        "website": "https://www.fashionhub.com",
+        "image": "images/fashionhub.jpg",
+        "membership_level": 1
+    },
+    {
+        "name": "Tech Solutions",
+        "address": "202 Tech Blvd, Abeokuta",
+        "phone": "08056789012",
+        "website": "https://www.techsolutions.com",
+        "image": "images/techsolutions.jpg",
+        "membership_level": 2
+    },
+    {
+        "name": "Green Groceries",
+        "address": "303 Green St, Abeokuta",
+        "phone": "08067890123",
+        "website": "https://www.greengroceries.com",
+        "image": "images/greengroceries.jpg",
+        "membership_level": 3
+    },
+    {
+        "name": "Edu Learning",
+        "address": "404 Learning St, Abeokuta",
+        "phone": "08078901234",
+        "website": "https://www.edulearning.com",
+        "image": "images/edulearning.jpg",
+        "membership_level": 1
+    }
+]
