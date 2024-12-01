@@ -1,58 +1,42 @@
 [
     {
-        "name": "ABC Store",
-        "address": "123 Main St, Abeokuta",
-        "phone": "08012345678",
-        "website": "https://www.abcstore.com",
-        "image": "images/abcstore.jpg",
-        "membership_level": 1
+        "name": "Golden Horizon Ltd.",
+        "level": "Gold",
+        "logo": "images/Gold.webp",
+        "phone": "+234 801 234 5678",
+        "address": "123 Business Road, Abeokuta",
+        "website": "https://goldenhorizon.com"
     },
     {
-        "name": "Silver Tech",
-        "address": "456 High St, Abeokuta",
-        "phone": "08023456789",
-        "website": "https://www.silvertech.com",
-        "image": "images/silvertech.jpg",
-        "membership_level": 2
+        "name": "Silver Edge Solutions",
+        "level": "Silver",
+        "logo": "images/silver.png",
+        "phone": "+234 802 345 6789",
+        "address": "456 Corporate Avenue, Abeokuta",
+        "website": "https://silveredge.com"
     },
     {
-        "name": "Gold Furniture",
-        "address": "789 Market Rd, Abeokuta",
-        "phone": "08034567890",
-        "website": "https://www.goldfurniture.com",
-        "image": "images/goldfurniture.jpg",
-        "membership_level": 3
+        "name": "Platinum Partners",
+        "level": "Gold",
+        "logo": "images/plantinum.webp",
+        "phone": "+234 803 456 7890",
+        "address": "789 Executive Drive, Abeokuta",
+        "website": "https://platinumpartners.com"
     },
     {
-        "name": "Fashion Hub",
-        "address": "101 Fashion St, Abeokuta",
-        "phone": "08045678901",
-        "website": "https://www.fashionhub.com",
-        "image": "images/fashionhub.jpg",
-        "membership_level": 1
+        "name": "Startup Stars",
+        "level": "Silver",
+        "logo": "images/silver star.jpg",
+        "phone": "+234 804 567 8901",
+        "address": "12 Innovation Park, Abeokuta",
+        "website": "https://startupstars.com"
     },
     {
-        "name": "Tech Solutions",
-        "address": "202 Tech Blvd, Abeokuta",
-        "phone": "08056789012",
-        "website": "https://www.techsolutions.com",
-        "image": "images/techsolutions.jpg",
-        "membership_level": 2
-    },
-    {
-        "name": "Green Groceries",
-        "address": "303 Green St, Abeokuta",
-        "phone": "08067890123",
-        "website": "https://www.greengroceries.com",
-        "image": "images/greengroceries.jpg",
-        "membership_level": 3
-    },
-    {
-        "name": "Edu Learning",
-        "address": "404 Learning St, Abeokuta",
-        "phone": "08078901234",
-        "website": "https://www.edulearning.com",
-        "image": "images/edulearning.jpg",
-        "membership_level": 1
+        "name": "Bronze Business Co.",
+        "level": "Bronze",
+        "logo": "images/bronze.jpg",
+        "phone": "+234 805 678 9012",
+        "address": "34 Entrepreneur Lane, Abeokuta",
+        "website": "https://bronzebusiness.com"
     }
 ]

@@ -203,3 +203,35 @@ footer {
         height: 40px;
     }
 }
+.spotlight-card {
+    display: flex; /* Aligns the image and text side by side */
+    align-items: center; /* Centers the image and text vertically */
+    gap: 20px; /* Adds space between the image and text */
+    border: 1px solid #ddd; /* Optional: Adds a border around the card */
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #f9f9f9; /* Optional: Background color for the card */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow for depth */
+    margin-bottom: 20px; /* Adds space between cards */
+}
+
+.spotlight-card img {
+    max-width: 150px; /* Sets a fixed max width for the image */
+    height: auto;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.spotlight-content {
+    flex: 1; /* Makes the content take up the remaining space */
+}
+
+.spotlight-content h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+}
+
+.spotlight-content p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
