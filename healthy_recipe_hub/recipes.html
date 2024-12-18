@@ -36,8 +36,15 @@
         <div id="recipe-list"></div>
     </main>
     <footer>
-        <p>&copy;  2024 Healthy Recipe Hub | Designed by Andrew Mogbeyiromore</p>
+        <p>&copy; <span id="current-year"></span> Healthy Recipe Hub</p>
+        <p>Last modified: <span id="last-modified"></span></p>
+        <p>Developed by Andrew Mogbeyiromore, WDD231</p>
+        
     </footer>
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+        document.getElementById('last-modified').textContent = document.lastModified;
+    </script>
     <script src="scripts/recipe.js"></script>
 </body>
 </html>
