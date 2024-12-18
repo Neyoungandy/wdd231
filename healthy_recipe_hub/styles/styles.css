@@ -245,7 +245,7 @@ footer p {
 
 body {
     /* Background Image */
-    background-image: url("../healthy_recipe_hub/images/recipe-background.jpeg");
+    background-image: url("../images/recipe-background.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
